@@ -65,7 +65,7 @@ interface SearchParams {
 }
 
 const Home = async ({ searchParams }: SearchParams) => {
-  await test();
+  // await test();
 
   const { query = "", filter = "" } = await searchParams;
 
